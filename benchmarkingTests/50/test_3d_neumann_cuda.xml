@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+  <grid>
+    <nx>50</nx>
+    <ny>50</ny>
+    <nz>50</nz>
+  </grid>
+
+  <domain>
+    <Lx>1.0</Lx>
+    <Ly>1.0</Ly>
+    <Lz>1.0</Lz>
+  </domain>
+
+  <velocity>
+    <vx>0.001</vx>
+    <vy>0.001</vy>
+    <vz>0.001</vz>
+  </velocity>
+
+  <physics>
+    <D>0.0002</D>
+  </physics>
+
+  <time>
+    <dt>0.02</dt>
+    <t_final>300.0</t_final>
+  </time>
+
+  <boundary>
+    <type>neumann</type>
+  </boundary>
+
+  <output>
+    <interval>50</interval>
+    <dir>output_3d_neumann_cuda_50</dir>
+  </output>
+</simulation>

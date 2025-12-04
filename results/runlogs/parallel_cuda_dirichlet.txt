@@ -1,0 +1,65 @@
+50x50x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [✘!?] took 11.0s
+❯ ./build/cfd_sim_cuda benchmarkingTests/50/test_2d_dirichlet_cuda.xml
+Running CUDA simulation: 15000 steps
+Grid: 50x50x1 (2500 points)
+Using CUDA block size: (16, 16, 4) = 1024 threads/block
+CUDA grid: (4, 4, 1) blocks, (16, 16, 4) threads/block
+
+Simulation time: 0.848 seconds
+Output: output_2d_dirichlet_cuda_50/ (301 files)
+
+50x50x50
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [✘!?]
+❯ ./build/cfd_sim_cuda benchmarkingTests/50/test_3d_dirichlet_cuda.xml
+Running CUDA simulation: 15000 steps
+Grid: 50x50x50 (125000 points)
+Using CUDA block size: (16, 16, 4) = 1024 threads/block
+CUDA grid: (4, 4, 13) blocks, (16, 16, 4) threads/block
+
+Simulation time: 10.277 seconds
+Output: output_3d_dirichlet_cuda_50/ (301 files)
+
+150x150x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [?]
+❯ ./build/cfd_sim_cuda test_2d_dirichlet_cuda.xml
+Running CUDA simulation: 15000 steps
+Grid: 150x150x1 (22500 points)
+Using CUDA block size: (16, 16, 4) = 1024 threads/block
+CUDA grid: (10, 10, 1) blocks, (16, 16, 4) threads/block
+
+Simulation time: 2.261 seconds
+Output: output_2d_dirichlet_cuda_150/ (301 files)
+
+150x150x150
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [?] took 2.8s
+❯ ./build/cfd_sim_cuda test_3d_dirichlet_cuda.xml
+Running CUDA simulation: 15000 steps
+Grid: 150x150x150 (3375000 points)
+Using CUDA block size: (16, 16, 4) = 1024 threads/block
+CUDA grid: (10, 10, 38) blocks, (16, 16, 4) threads/block
+
+Simulation time: 227.651 seconds
+Output: output_3d_dirichlet_cuda_150/ (301 files)
+
+250x250x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim_cuda benchmarkingTests/250/test_2d_dirichlet_cuda.xml
+Running CUDA simulation: 15000 steps
+Grid: 250x250x1 (62500 points)
+Using CUDA block size: (16, 16, 4) = 1024 threads/block
+CUDA grid: (16, 16, 1) blocks, (16, 16, 4) threads/block
+
+Simulation time: 5.184 seconds
+Output: output_2d_dirichlet_cuda_250/ (301 files)
+
+250x250x250
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!] took 5.5s
+❯ ./build/cfd_sim_cuda benchmarkingTests/250/test_3d_dirichlet_cuda.xml
+Running CUDA simulation: 15000 steps
+Grid: 250x250x250 (15625000 points)
+Using CUDA block size: (16, 16, 4) = 1024 threads/block
+CUDA grid: (16, 16, 63) blocks, (16, 16, 4) threads/block
+
+Simulation time: 595.165 seconds
+Output: output_3d_dirichlet_cuda_250/ (301 files)

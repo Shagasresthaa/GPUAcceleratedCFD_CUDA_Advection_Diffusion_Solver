@@ -1,0 +1,47 @@
+50x50x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/50/test_2d_dirichlet.xml
+Running simulation: 15000 steps
+
+Simulation time: 0.861 seconds
+Output: output_2d_dirichlet_50/ (301 files)
+
+50x50x50
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/50/test_3d_dirichlet.xml
+Running simulation: 15000 steps
+
+Simulation time: 38.311 seconds
+Output: output_3d_dirichlet_50/ (301 files)
+
+150x150x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [✘?]
+❯ ./build/cfd_sim test_2d_dirichlet.xml
+Running simulation: 15000 steps
+
+Simulation time: 6.063 seconds
+Output: output_2d_dirichlet_150/ (301 files)
+
+150x150x150
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [✘?] took 6.1s
+❯ ./build/cfd_sim test_3d_dirichlet.xml
+Running simulation: 15000 steps
+
+Simulation time: 1250.919 seconds
+Output: output_3d_dirichlet_150/ (301 files)
+
+250x250x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!] took 16.9s
+❯ ./build/cfd_sim benchmarkingTests/250/test_2d_dirichlet.xml
+Running simulation: 15000 steps
+
+Simulation time: 16.470 seconds
+Output: output_2d_dirichlet_250/ (301 files)
+
+250x250x250
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/250/test_3d_dirichlet.xml
+Running simulation: 15000 steps
+
+Simulation time: 5778.289 seconds
+Output: output_3d_dirichlet_250/ (301 files)

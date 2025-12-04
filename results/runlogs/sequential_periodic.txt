@@ -1,0 +1,47 @@
+50x50x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main
+❯ ./build/cfd_sim benchmarkingTests/50/test_2d_periodic.xml
+Running simulation: 15000 steps
+
+Simulation time: 0.803 seconds
+Output: output_2d_periodic_50/ (301 files)
+
+50x50x50
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/50/test_3d_periodic.xml
+Running simulation: 15000 steps
+
+Simulation time: 38.717 seconds
+Output: output_3d_periodic_50/ (301 files)
+
+150x150x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!?]
+❯ ./build/cfd_sim benchmarkingTests/150/test_2d_periodic.xml
+Running simulation: 15000 steps
+
+Simulation time: 5.943 seconds
+Output: output_2d_periodic_150/ (301 files)
+
+150x150x150
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!?] took 6.0s
+❯ ./build/cfd_sim benchmarkingTests/150/test_3d_periodic.xml
+Running simulation: 15000 steps
+
+Simulation time: 1274.598 seconds
+Output: output_3d_periodic_150/ (301 files)
+
+250x250x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/250/test_2d_periodic.xml
+Running simulation: 15000 steps
+
+Simulation time: 16.825 seconds
+Output: output_2d_periodic_250/ (301 files)
+
+250x250x250
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/250/test_3d_periodic.xml
+Running simulation: 15000 steps
+
+Simulation time: 5675.441 seconds
+Output: output_3d_periodic_250/ (301 files)

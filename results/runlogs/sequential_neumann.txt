@@ -1,0 +1,46 @@
+50x50x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/50/test_2d_neumann.xml
+Running simulation: 15000 steps
+
+Simulation time: 0.853 seconds
+Output: output_2d_neumann_50/ (301 files)
+
+50x50x50
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/50/test_3d_neumann.xml
+Running simulation: 15000 steps
+
+Simulation time: 39.103 seconds
+Output: output_3d_neumann_50/ (301 files)
+
+150x150x1
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [✘?] took 20m 51.6s
+❯ ./build/cfd_sim test_2d_neumann.xml
+Running simulation: 15000 steps
+
+Simulation time: 6.095 seconds
+Output: output_2d_neumann_150/ (301 files)
+
+150x150x150
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [✘?] took 6.1s
+❯ ./build/cfd_sim test_3d_neumann.xml
+Running simulation: 15000 steps
+
+Simulation time: 1345.500 seconds
+Output: output_3d_neumann_150/ (301 files)
+
+250x250x1
+❯ ./build/cfd_sim benchmarkingTests/250/test_2d_neumann.xml
+Running simulation: 15000 steps
+
+Simulation time: 16.846 seconds
+Output: output_2d_neumann_250/ (301 files)
+
+250x250x250
+Projects/GPUAcceleratedCFD_CUDA_NavierStokes_Solver on  main [!]
+❯ ./build/cfd_sim benchmarkingTests/250/test_3d_neumann.xml
+Running simulation: 15000 steps
+
+Simulation time: 5734.996 seconds
+Output: output_3d_neumann_250/ (301 files)

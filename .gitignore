@@ -1,0 +1,21 @@
+# CMake build directory
+/build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Ninja build files
+.ninja_deps
+.ninja_log
+
+# Cache files
+.cache/
+
+# Output files
+output_2d_*
+output_3d_*
+
+# Python ignores
+venv

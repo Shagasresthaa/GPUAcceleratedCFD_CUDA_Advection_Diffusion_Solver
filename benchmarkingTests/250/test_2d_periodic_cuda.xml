@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+  <grid>
+    <nx>250</nx>
+    <ny>250</ny>
+    <nz>1</nz>
+  </grid>
+
+  <domain>
+    <Lx>1.0</Lx>
+    <Ly>1.0</Ly>
+    <Lz>1.0</Lz>
+  </domain>
+
+  <velocity>
+    <vx>0.001</vx>
+    <vy>0.001</vy>
+    <vz>0.0</vz>
+  </velocity>
+
+  <physics>
+    <D>0.0002</D>
+  </physics>
+
+  <time>
+    <dt>0.02</dt>
+    <t_final>300.0</t_final>
+  </time>
+
+  <boundary>
+    <type>periodic</type>
+  </boundary>
+
+  <output>
+    <interval>50</interval>
+    <dir>output_2d_periodic_cuda_250</dir>
+  </output>
+</simulation>
